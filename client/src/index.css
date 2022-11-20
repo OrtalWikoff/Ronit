@@ -1,6 +1,6 @@
 :root {
   --primary: black;
-  --secondary: #81a9f5;
+  --secondary: white;
   --tertiary: #B12704;
   --light: hsl(0, 0%, 98%);
   --dark: black;
@@ -94,18 +94,20 @@ header a {
 button {
   font-size: 1rem;
   text-decoration: none;
-  padding: 0.25rem 1rem;
-  border-radius: .5rem;
+  padding: 0.40rem 2rem;
+  border-radius: 1rem;
   border: none;
   outline: none;
   cursor: pointer;
-  margin: 0 1px;
+  margin: 0 20px;
   background-color: black;
   color: white;
+  font-family: cursive;
+
 }
 
 button:hover {
-  opacity: .8;
+  opacity: 0.8;
 }
 
 button[disabled] {
@@ -135,7 +137,7 @@ input {
 }
 
 input:focus {
-  border: 1px solid var(--secondary);
+  border: 1px solid white;
   box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
 }
 
