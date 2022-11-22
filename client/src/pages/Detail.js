@@ -93,6 +93,16 @@ function Detail() {
 
           <p>
             <strong>Price:</strong>${currentProduct.price}{' '}
+            <br></br>
+            <br></br>
+            <strong>Size: </strong>
+            <br></br>
+            <div className='sizeFrame'>
+            <div className='size'> 3.30 oz</div>
+            <div className='size'> 2.00 oz</div>
+            <div className='size'> 1.30 oz</div>
+            </div>
+
             <button onClick={addToCart}>Add to Cart</button>
             <button
               disabled={!cart.find((p) => p._id === currentProduct._id)}

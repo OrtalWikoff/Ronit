@@ -9,7 +9,8 @@ db.once('open', async () => {
     { name: 'Men' },
     { name: 'Unisex' },
     { name: 'Kids' },
-    { name: 'Sale' }
+    { name: 'Sale' }, 
+    { name: 'brand' } 
   ]);
 
   console.log('categories seeded');
@@ -22,7 +23,7 @@ db.once('open', async () => {
       description:
         'Blossom Eau de Parfum Spray, 1.3 oz.',
       image: "Jimmy.webp",
-      category: categories[0]._id,
+      category: categories[5]._id,
       price: 30.00,
       quantity: 5
     },
